@@ -1,0 +1,14 @@
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\CantinaDAO.exe.config
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\CantinaDAO.exe
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\CantinaDAO.pdb
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\EntityFramework.dll
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\System.Data.SQLite.dll
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\System.Data.SQLite.EF6.dll
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\System.Data.SQLite.Linq.dll
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\EntityFramework.xml
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\bin\Debug\System.Data.SQLite.xml
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\obj\Debug\CantinaBD.csprojResolveAssemblyReference.cache
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\obj\Debug\CantinaDAO.exe
+c:\users\27383\documents\visual studio 2015\Projects\CantinaDAO\CantinaDAO\obj\Debug\CantinaDAO.pdb
