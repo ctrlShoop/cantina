@@ -1,31 +1,89 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoCantina
+namespace ProjetoIICantina
 {
-    class Produto
+    public class Produto
     {
-        private int codigo;
-        private int quantidade;
-        private double preco;
+        //SQLiteConnection con;
+
+        private int codigoProd;
+        protected double preco;
         private string nome;
+        private string imagem;
 
-
-
-        public int Codigo { get => codigo; set => codigo = value; }
-        public int Quantidade { get => quantidade; set => quantidade = value; }
-        public double Preco { get => preco; set => preco = value; }
-        public string Nome { get => nome; set => nome = value; }
-
-        public Produto(int codigo, int quantidade, double preco, string nome)
+        public Produto(int codigoProd, double preco, string nome, string imagem)
         {
-            this.codigo = codigo;
-            this.quantidade = quantidade;
+            this.codigoProd = codigoProd;
             this.preco = preco;
             this.nome = nome;
+            this.imagem = imagem;
+        }
+
+        public Produto()
+        {
+        }
+
+        public string retornaImagem()
+        {
+            return Environment.GetEnvironmentVariable("HOMEPATH") + "\\Desktop\\cantina\\imgCantina\\" + imagem;
+        }
+
+
+        public string Imagem
+        {
+            get
+            {
+                return imagem;
+            }
+
+            set
+            {
+                imagem = value;
+            }
+        }
+
+        public int CodigoProd
+        {
+            get
+            {
+                return codigoProd;
+            }
+
+            set
+            {
+                codigoProd = value;
+            }
+        }
+
+        public double Preco
+        {
+            get
+            {
+                return preco;
+            }
+
+            set
+            {
+                preco = value;
+            }
+        }
+
+        public string Nome
+        {
+            get
+            {
+                return nome;
+            }
+
+            set
+            {
+                nome = value;
+            }
         }
     }
 }
